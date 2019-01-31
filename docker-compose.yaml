@@ -1,7 +1,7 @@
 version: '3'
 services:
   azure-vote-back:
-    image: redis
+    image: redis:5.0.3-alpine
     container_name: azure-vote-back
     ports:
         - "6379:6379"
